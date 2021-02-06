@@ -20,22 +20,25 @@
 }
 
 #img1 {
+  height: 11rem;
+  width: 9rem;
   border: 1px solid black;
-  border-radius: 35%;
+  border-radius: 15%;
+  transition: 0.5s;
+}
+#img1:hover {
+  box-shadow: 3px 8px 5px 0px black;
 }
 
-.perinfo-div {
+.mid-div {
   margin: 15px;
   padding: 10px;
   border-radius: 15px;
   background-color: rgb(202, 199, 199);
+  transition: 0.5s;
 }
-
-.eduinfo-div {
-  margin: 15px;
-  padding: 10px;
-  border-radius: 15px;
-  background-color: rgb(202, 199, 199);
+.mid-div:hover {
+  box-shadow: 0px 8px 5px 0px black;
 }
 
 .form-div {
@@ -43,4 +46,19 @@
   padding: 10px;
   border-radius: 15px;
   background-color: rgb(202, 199, 199);
+}
+.table-div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border-collapse: collapse;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+  border-radius: 15px;
 }
