@@ -2,3 +2,45 @@
   margin: 0;
   padding: 0;
 }
+
+.main-div {
+  margin: 15px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: whitesmoke;
+}
+
+.top {
+  margin: 15px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: rgb(202, 199, 199);
+}
+
+#img1 {
+  border: 1px solid black;
+  border-radius: 35%;
+}
+
+.perinfo-div {
+  margin: 15px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: rgb(202, 199, 199);
+}
+
+.eduinfo-div {
+  margin: 15px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: rgb(202, 199, 199);
+}
+
+.form-div {
+  margin: 15px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: rgb(202, 199, 199);
+}

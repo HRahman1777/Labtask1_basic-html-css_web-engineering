@@ -10,134 +10,141 @@
 
 <body>
 
-    <div>
-        <img src="img/img1.jpg" height="145rem" width="120rem">
-        <h1>Hasibur Rahman</h1>
-        <h3>(Web Developer)</h3>
-        <p>hasibur15-1777@diu.edu.bd</p>
-        <p>+8801948891338</p>
-        <p> <a href="https://github.com/HRahman1777"> website</a> </p>
+    <div class="main-div">
 
-        <hr>
+        <div class="top">
+            <img src="img/img1.jpg" height="145rem" width="120rem" id="img1">
+            <h1>Hasibur Rahman</h1>
+            <h3>(Web Developer)</h3>
+            <p>hasibur15-1777@diu.edu.bd</p>
+            <p>+8801948891338</p>
+            <p> <a href="https://github.com/HRahman1777">Github</a> </p>
+        </div>
 
-        <h2><u>Personal Info</u></h2>
-        <p>I am a student in the Department of Computer Science And Engineering at of Daffodil International University
-            .
-            I am interested in the field of Science Of technology specially Computer related science, that's why I
-            choose to
-            complete my Bachelor’s degrees in CSE.</p>
+        <div class="perinfo-div">
+            <h2><u>Personal Info</u></h2>
+            <p>I am a student in the Department of Computer Science And Engineering at of Daffodil International
+                University
+                .
+                I am interested in the field of Science Of technology specially Computer related science, that's why I
+                choose to
+                complete my Bachelor’s degrees in CSE.</p>
 
+        </div>
 
         <h2><u>Work Experience</u></h2>
 
 
 
-        <h2><u>Education</u></h2>
+        <div class="eduinfo-div">
+            <h2><u>Education</u></h2>
 
-        <table border="1px" width="80%">
-            <th>Name of Degree</th>
-            <th> Group/Subject
-            <th>GPA</th>
-            <th>Board/University
-            <th>Year</th>
-            <tr align="center">
-                <td>BSc</td>
-                <td>CSE</td>
-                <td>---</td>
-                <td>Daffodil International University</td>
-                <td>2021</td>
-            </tr>
-            <tr align="center">
-                <td>HSC</td>
-                <td>Science</td>
-                <td>4.58</td>
-                <td>Dhaka</td>
-                <td>2017</td>
-            </tr>
-            <tr align="center">
-                <td>SSC</td>
-                <td>Science</td>
-                <td>5.00</td>
-                <td>Dhaka</td>
-                <td>2015</td>
-            </tr>
-        </table>
+            <table border="1px" width="80%">
+                <th>Name of Degree</th>
+                <th> Group/Subject
+                <th>GPA</th>
+                <th>Board/University
+                <th>Year</th>
+                <tr align="center">
+                    <td>BSc</td>
+                    <td>CSE</td>
+                    <td>---</td>
+                    <td>Daffodil International University</td>
+                    <td>2021</td>
+                </tr>
+                <tr align="center">
+                    <td>HSC</td>
+                    <td>Science</td>
+                    <td>4.58</td>
+                    <td>Dhaka</td>
+                    <td>2017</td>
+                </tr>
+                <tr align="center">
+                    <td>SSC</td>
+                    <td>Science</td>
+                    <td>5.00</td>
+                    <td>Dhaka</td>
+                    <td>2015</td>
+                </tr>
+            </table>
+        </div>
 
+        <div class="form-div">
+            <h2><u>Registration Form</u></h2>
+            <form action="" method="POST">
 
-        <h2><u>Registration Form</u></h2>
-        <form action="" method="POST">
+                <div>
+                    <label for="firstname"> First Name: </label>
+                    <input type="text" placeholder="Enter your first name" name="fname"></input>
+                </div>
+                <div>
+                    <label for="lastname"> Last Name: </label>
+                    <input type="text" placeholder="Enter your last name" name="lname"></input>
+                </div>
 
-            <div>
-                <label for="firstname"> First Name: </label>
-                <input type="text" placeholder="Enter your first name" name="fname"></input>
-            </div>
-            <div>
-                <label for="lastname"> Last Name: </label>
-                <input type="text" placeholder="Enter your last name" name="lname"></input>
-            </div>
+                <div>
+                    <label for="email"> Email: </label>
+                    <input type="email" placeholder="Enter your email address" name="email"></input>
+                </div>
 
-            <div>
-                <label for="email"> Email: </label>
-                <input type="email" placeholder="Enter your email address" name="email"></input>
-            </div>
+                <div>
+                    <label for="password"> Password: </label>
+                    <input type="password" placeholder="Enter password please" name="password"></input>
+                </div>
 
-            <div>
-                <label for="password"> Password: </label>
-                <input type="password" placeholder="Enter password please" name="password"></input>
-            </div>
+                <div>
+                    <label for="birthdate"> Date Of Birth: </label>
+                    <input type="date" name="bdate"></input>
+                </div>
 
-            <div>
-                <label for="birthdate"> Date Of Birth: </label>
-                <input type="date" name="bdate"></input>
-            </div>
+                <div>
+                    <label for="nationality">Nationality: </label>
+                    <input type="text" placeholder="Enter your nationality" name="nationality"></input>
+                </div>
 
-            <div>
-                <label for="nationality">Nationality: </label>
-                <input type="text" placeholder="Enter your nationality" name="nationality"></input>
-            </div>
+                <div>
+                    <label for="gender"> Gender: </label>
+                    <input type="radio" name="gender" value="male"> Male </input>
+                    <input type="radio" name="gender" id="gender" value="female"> Female</input>
+                </div>
 
-            <div>
-                <label for="gender"> Gender: </label>
-                <input type="radio" name="gender" value="male"> Male </input>
-                <input type="radio" name="gender" id="gender" value="female"> Female</input>
-            </div>
+                <div>
+                    <label for="religion">Religion: </label>
+                    <input type="checkbox" name="reIslam" value="islam"> Islam</input>
+                    <input type="checkbox" name="reHindu" value="hindu"> Hindu</input>
+                    <input type="checkbox" name="reChristian" value="hindu">Christian</input>
+                    <input type="checkbox" name="reBuddha" value="hindu">Buddha</input>
+                </div>
 
-            <div>
-                <label for="religion">Religion: </label>
-                <input type="checkbox" name="reIslam" value="islam"> Islam</input>
-                <input type="checkbox" name="reHindu" value="hindu"> Hindu</input>
-                <input type="checkbox" name="reChristian" value="hindu">Christian</input>
-                <input type="checkbox" name="reBuddha" value="hindu">Buddha</input>
-            </div>
+                <div>
+                    <label for="department">Department: </label>
+                    <Select name="dept">
+                        <option value="cse"> CSE </option>
+                        <option value="swe"> SWE </option>
+                        <option value="eee"> EEE </option>
+                        <option value="bba"> BBA </option>
+                        <option value="llb"> LLB </option>
+                        <option value="phar"> PHARMACY </option>
+                        <option value="eng"> ENGLISH </option>
+                    </Select>
+                </div>
 
-            <div>
-                <label for="department">Department: </label>
-                <Select name="dept">
-                    <option value="cse"> CSE </option>
-                    <option value="swe"> SWE </option>
-                    <option value="eee"> EEE </option>
-                    <option value="bba"> BBA </option>
-                    <option value="llb"> LLB </option>
-                    <option value="phar"> PHARMACY </option>
-                    <option value="eng"> ENGLISH </option>
-                </Select>
-            </div>
+                <div>
+                    <label for="nid">NID NO.:</label>
+                    <input type="number" name="nid"></input>
+                </div>
 
-            <div>
-                <label for="nid">NID NO.:</label>
-                <input type="number" name="nid"></input>
-            </div>
+                <div>
+                    <label for="photo">Upload Your Photo: </label> <input type="file" name="photo">
+                </div>
 
-            <div>
-                <label for="photo">Upload Your Photo: </label> <input type="file" name="photo">
-            </div>
+                <div>
+                    <input type="submit" value="Save">
+                    <input type="reset" value="Clear">
+                </div>
 
-            <div>
-                <input type="submit" value="Save">
-                <input type="reset" value="Clear">
-            </div>
-
-        </form>
+            </form>
+        </div>
 
         <footer>
             <a href="https://google.com">Google</a><br>
