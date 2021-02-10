@@ -53,6 +53,10 @@
   width: 80%;
   border-collapse: collapse;
 }
+.lav {
+  padding: 5px;
+  border-radius: 10px;
+}
 
 footer {
   background-color: black;
